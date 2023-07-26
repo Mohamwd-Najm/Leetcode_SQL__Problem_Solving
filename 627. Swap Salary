@@ -1,0 +1,7 @@
+#SQL on Leetcode
+#627. Swap Salary
+# MYSQL_Solution
+
+    UPDATE salary
+SET
+    sex = if(sex ='m','f','m')
