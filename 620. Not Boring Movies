@@ -1,0 +1,8 @@
+#SQL on Leetcode
+#620. Not Boring Movies
+# MYSQL_Solution
+
+Select * 
+From cinema
+Where id%2=1 and description != 'boring'
+Order by rating desc
