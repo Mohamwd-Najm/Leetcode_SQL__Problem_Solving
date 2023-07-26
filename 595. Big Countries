@@ -1,0 +1,7 @@
+#SQL on Leetcode
+#595. Big Countries
+# MYSQL_Solution
+
+select  name, population, area 
+from world
+where area >= 3000000 or population >=25000000
