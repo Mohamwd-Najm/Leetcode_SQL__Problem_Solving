@@ -1,5 +1,6 @@
-
+#SQL on Leetcode
 # 1484. Group Sold Products By The Date
+# MYSQL_Solution
 
 select sell_date, count( DISTINCT product ) as num_sold ,
     
